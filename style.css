@@ -1,0 +1,184 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f2f6fa;
+	text-align: center;
+}
+
+header {
+	background: #0077b6;
+	color: #fff;
+	padding: 30px 0 10px 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-container {
+	display: flex;
+	flex-direction: column;
+#contacto button {
+	background: linear-gradient(90deg, #0077b6 60%, #90e0ef 100%);
+	color: #fff;
+	border: none;
+	padding: 18px 40px;
+	border-radius: 32px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background 0.2s;
+	box-shadow: 0 2px 12px rgba(0,119,182,0.15);
+}
+#contacto button:hover {
+	background: linear-gradient(90deg, #023e8a 60%, #90e0ef 100%);
+}
+	max-width: 220px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1rem;
+	transition: color 0.2s;
+}
+
+nav ul li a:hover {
+	color: #90e0ef;
+}
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px 10px;
+}
+
+#hero {
+	margin-bottom: 40px;
+}
+
+#hero h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+#hero p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	background: #0077b6;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background 0.2s;
+}
+
+.btn:hover {
+	background: #023e8a;
+}
+
+#servicios {
+	margin-bottom: 40px;
+}
+
+.servicios-lista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+
+.servicio {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	padding: 20px;
+	width: 260px;
+	text-align: center;
+}
+
+.servicio img {
+	width: 100%;
+	max-width: 180px;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+
+#equipo {
+	margin-bottom: 40px;
+}
+
+#contacto form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	max-width: 400px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+#contacto label {
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#contacto input,
+#contacto textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 1rem;
+}
+
+#contacto button {
+	background: #0077b6;
+	color: #fff;
+	border: none;
+	padding: 10px 24px;
+	border-radius: 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background 0.2s;
+}
+
+#contacto button:hover {
+	background: #023e8a;
+}
+
+footer {
+	background: #0077b6;
+	color: #fff;
+	padding: 18px 0;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
